@@ -85,7 +85,6 @@ namespace ClassLibrary1
             }
             //Do Something to reset;
             //SmartGit reset之后，现在再次提交
-            //Do Something to reset（1）;
         }
 
         private void button2_Click(object sender, EventArgs e)
