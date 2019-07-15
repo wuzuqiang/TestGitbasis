@@ -84,6 +84,7 @@ namespace ClassLibrary1
                 (new FileUtils()).copyFile(str, txtProduct.Text, txtBrand1.Text);
             }
             //Do Something to reset;
+            //SmartGit reset之后，现在再次提交
         }
 
         private void button2_Click(object sender, EventArgs e)
