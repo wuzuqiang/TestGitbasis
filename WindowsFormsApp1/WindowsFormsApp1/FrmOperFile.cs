@@ -83,6 +83,7 @@ namespace ClassLibrary1
                 }
                 (new FileUtils()).copyFile(str, txtProduct.Text, txtBrand1.Text);
             }
+            //Do Something to reset;
         }
 
         private void button2_Click(object sender, EventArgs e)
