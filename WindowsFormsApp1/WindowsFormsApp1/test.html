@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/extjs/6.0.0/ext-all.js"></script>
+    <script type="text/javascript">
+        Ext.define('Fusion.ux.window.AddWindow1', {
+            //extend: 'Ext.window.Window'
+        },
+            function () {
+                Fusion.addWindow = function () {
+                    alert("23233ffff2");
+                };
+            });
+        Ext.onReady(function () {
+            function extraFunction() { alert("extraFunction"); }
+            Fusion.addWindow();
+            extraFunction();
+            //Fussion.AddFun = function () {
+            //    alert("abc123");
+            //}
+            //Fussion.AddFun();
+        });
+    </script>
+</head>
+<body>
+    <div id="helloWorldPanel"></div>
+</body>
+</html>
